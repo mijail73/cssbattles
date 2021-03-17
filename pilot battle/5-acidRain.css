@@ -1,0 +1,42 @@
+<div class=circulo></div>
+<div class="circulo circulo-med"></div>
+<div class="circulo circulo-down"></div>
+<div class=square></div>
+<div class="square green"></div>
+<style>
+  body {
+    background: #0B2429;
+    margin: 0;
+    position: absolute;
+  }
+  .circulo {
+    margin: 30 200;
+    width: 120px;
+    height: 120px;
+    background: #F3AC3C;
+    position: fixed;
+    border-radius: 50%;
+  }
+  .circulo-med {
+    margin: 90 140;
+    background: #998235;
+    z-index: 1;
+  }
+  .circulo-down {
+    margin: 150 80;
+    z-index: 2;
+  }
+  .square {
+    margin: 150 140;
+    width: 60;
+    height: 60;
+    background: #F3AC3C;
+    position: fixed;
+    z-index: 3;
+  }
+  .green {
+    background: #998235;
+    position:fixed;
+    margin: 90 200;
+  }
+</style>
