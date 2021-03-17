@@ -1,0 +1,27 @@
+<div class="cuadrado" id="a"></div>
+<div class="cuadrado" id="b"></div>
+<div class="cuadrado" id="c"></div>
+<div class="cuadrado" id="d"></div>
+<style>
+  body {
+    margin: 0;
+    background: #62374e
+  }
+  .cuadrado {
+    width: 50px;
+    height: 50px;
+    background: #FDC57B;
+  }
+  #a{
+   	margin: 50;
+  }
+  #b{
+    margin: 100 50;
+  }
+  #c{
+    margin: -300 0 0 300;
+  }
+  #d{
+    margin: 100 0 0 300;
+  }
+</style>
