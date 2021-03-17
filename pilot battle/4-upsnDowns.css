@@ -1,0 +1,31 @@
+<div class=down-a></div>
+<div class="down-a up"></div>
+<div class="down-a down-b"></div>
+<style>
+  body {
+    margin: 0;
+    background: #62306D;
+    position: relative
+  }  
+  .down-a {
+    width: 100px;
+    height: 100px;
+    margin-top: 150;
+    margin-left: 50;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background: #F7EC7D;
+    position: absolute;
+  }
+  .up{
+    margin-top: 50;
+    margin-left: 150;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .down-b {
+    margin-left: 250;
+  }
+</style>
