@@ -1,0 +1,45 @@
+<div class=circulo>
+<div class=cuadrado id=a></div>
+<div class=cuadrado id=b></div>
+<div class=cuadrado id=c></div>
+<div class=cuadrado id=d></div>
+</div>
+<style>
+  body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E3516E;
+  }
+  .circulo {
+    width: 200;
+    height: 200;
+    border-radius: 50%;
+    overflow: hidden;
+    position: fixed;
+  }
+  .cuadrado{
+    width: 100px;
+    height: 100px;
+    background: #E3516E;
+    position: absolute;
+  }
+  #a {
+    top:100;
+    right:0;
+  }
+  #b {
+    top:100;
+    background:#F7F3D7
+  }
+  #c {
+    bottom: 100;
+    background:#51B5A9
+  }
+  #d {
+    bottom:100;
+    right:0;
+    background:#FADE8B;
+  }
+</style>

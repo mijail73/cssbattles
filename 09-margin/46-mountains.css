@@ -1,0 +1,42 @@
+<div class=circulo>
+<div class=montana></div>
+<div class="chica"></div>
+</div>
+<style>
+body {
+  margin: 0;
+  background:#293462;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circulo {
+  background: #FFF1C1;
+  height: 200;
+  width: 200;
+  border-radius: 50%;
+  overflow: hidden;
+  position: fixed;
+}
+.montana {
+  width: 0px;
+  height: 0px;
+  border-left: 200px solid transparent;
+ border-right: 200px solid transparent;
+  border-bottom: 200px solid #FE5F55;
+  position: absolute;
+  top: 59;
+  left: -59;
+}
+.chica {
+  width: 0px;
+  height: 0px;
+  border-left: 100px solid transparent;
+ border-right: 100px solid transparent;
+  border-bottom: 100px solid #FE5F55;
+  position: absolute;
+  top: 130;
+  left: -70;
+}
+
+</style>
