@@ -1,0 +1,40 @@
+<div class=rectangulo></div>
+<div class=cuadradoG></div>
+<div class="cuadradoG centro">
+	<div class="bolita"></div>
+</div>
+<style>
+  body {
+    margin: 0;
+    background: #222730;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rectangulo{
+    width:400;
+    height: 150;
+    position: fixed;
+    background: #4CAAB3;
+  }
+  .cuadradoG{
+    width: 250px;
+    height: 250px;
+    background: #222730;
+    transform: rotate(45deg);
+    position:fixed;
+  }
+  .centro{
+    background:#4CAAB3;
+    transform: rotate(45deg);
+    width: 150;
+	height: 150;
+  }
+  .bolita{
+    border-radius: 50%;
+    width: 50;
+    height: 50;
+    background: #393E46;
+    margin: 50
+  }
+</style>
