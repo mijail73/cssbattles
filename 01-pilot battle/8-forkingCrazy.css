@@ -1,0 +1,98 @@
+<div class=cuerpo></div>
+<div class=soporte></div>
+<div class="soporte a">
+  <div class=bolita>
+    <div class="bola primera">
+      <div class="soportex">
+    </div>
+  </div>
+</div>
+<div class="soporte b">
+  <div class=bolita>
+    <div class="bola segunda">
+    <div class="soportex"></div>
+  </div>
+</div>
+<div class="soporte c">
+  <div class=bolita>
+    <div class="bola tercera">
+    <div class="soportex"></div>
+  </div>
+</div>
+<div class="soporte d">
+  <div class=bolita></div>
+</div>
+<style>
+  body {
+    margin: 0;
+    background: #6592CF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cuerpo {
+    width: 140px;
+    height: 140px;
+    position: fixed;
+    background: #060F55;
+    top: 110;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+  }
+  .soporte {
+    width: 20;
+    height: 100;
+    position: fixed;
+    background: #060F55;
+    z-index:1;
+    top: 200;
+  }
+  .a{
+    left: 130;
+    top: 60;
+  }
+  .b{
+    left: 170;
+    top: 60;
+  }
+  .c{
+    left: 210;
+    top: 60;
+  }
+  .d{
+    left: 250;
+    top: 60;
+  }
+  .bolita {
+    width: 20;
+    height: 20;
+    position: fixed;
+    background: #060F55;
+    top: 50;
+    border-radius: 50%;
+  }
+  .bola {
+    width: 20;
+    height: 20;
+    position: fixed;
+    background: #6592CF;
+    top: 140;
+    border-radius: 50%;
+  }
+  .primera {
+    left: 150;
+  }
+  .segunda {
+    left: 190;
+  }
+  .tercera {
+    left: 230;
+  }
+  .soporteX {
+    width: 20;
+    height: 100;
+    position: fixed;
+    background: #6592CF;
+    top: 50;
+  }
+</style>
