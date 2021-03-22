@@ -1,0 +1,39 @@
+<div class=up></div>
+<div class="up a"></div>
+<div class="down"></div>
+<div class="down b"></div>
+<style>
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#F2F2B6
+  }
+  .up{
+    width: 0px;
+    height: 0px;
+    border-left:75px solid transparent;
+    border-right: 75px solid transparent;
+    border-top: 130px solid #FD4602;
+    left: 80;
+    position:absolute;
+  }
+  .a{
+    left:60;
+    border-top: 130px solid #FF6D00
+  }
+  .down{
+    width:0;
+    height:0;
+    border-left:75px solid transparent;
+    border-right:75px solid transparent;
+    border-bottom: 130px solid #FD4602;
+    position: absolute;
+    left: 170;
+  }
+  .b{
+    left:190;
+    border-bottom: 130px solid #FF6D00;
+    z-index:-1
+  }
+</style>

@@ -1,0 +1,31 @@
+<div class="circulo violeta">
+  <div class=circulo></div>
+</div>
+<div class="circulo rosa"></div>
+<style>
+  body{
+    margin:0;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background:#09042A
+  }
+  .circulo {
+    width: 150px;
+    height: 150px;
+    background: #09042A;
+    border-radius:50%;
+    position:absolute;
+    left: 100;
+  }
+  .violeta{
+    left:75;
+    background:#7B3F61;
+    overflow: hidden;
+  }
+  .rosa{
+    left: 175;
+    background:#E78481;
+    z-index:-2;
+  }
+</style>
