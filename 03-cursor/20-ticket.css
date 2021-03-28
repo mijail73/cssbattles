@@ -1,0 +1,51 @@
+<div class=izq></div>
+<div class=der></div>
+<div class=c1></div>
+<div class="c1 abajo"></div>
+<div class="c1 derecha"></div>
+<div class="c1 abajo derecha"></div>
+<div class="c1 derechaM"></div>
+<div class="c1 derechaM abajoM"></div>
+<style>
+  body{
+    margin:0;
+    background:#62306D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .izq {
+    width: 140px;
+    height: 100px;
+    background: #F7EC7D;
+  }
+  .der {
+    width:60;
+    height:100;
+    background:#E38F66;
+  }
+  .c1{
+    background: #62306D;
+    width: 40;
+    height: 40;
+    position: fixed;
+    border-radius:50%;
+    left:80;
+    top: 80;
+  }
+  .abajo{
+    top:180
+  }
+  .derecha{
+    left:280
+  }
+  .derechaM{
+    top:90;
+    left:230;
+    width:20;
+    height:20;
+  }
+  .abajoM{
+    top:190;
+  }
+</style>
