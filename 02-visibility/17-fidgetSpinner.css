@@ -1,0 +1,65 @@
+<div class=centro></div>
+<div class=ce>
+  <div class=centroMora></div>
+</div>
+<div class="ce der">
+  <div class=centroMora></div>
+</div>
+<div class="ce arriba">
+  <div class="centroMora arr"></div>
+</div>
+<div class="ce abajo">
+  <div class="centroMora arr"></div>
+</div>
+<style>
+  body {
+    margin:0;
+    background:#09042A;
+  }
+  .centro {
+    width: 80;
+    height: 50;
+    background: #E78481;
+    position: absolute;
+    left: 170;
+    top: 125;
+    z-index: 1;
+  }
+  .ce {
+    background:#E78481;
+    width:80;
+    height:80;
+    border-radius: 50%;
+    position:fixed;
+    left:100;
+    top:110;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    z-index:2
+  }
+  .centroMora{
+    height: 60;
+    width:60;
+    background:#09042A;
+    border-radius:50%;
+  }
+  .der{
+    left:220
+  }
+  .arriba{
+    top:57;
+    left:160;
+    background:#09042A;
+    width:80;
+    height:80;
+  }
+  .arr{
+    background:#F5BB9C;
+  }
+  .abajo{
+    top:163;
+    left:160;
+    background:#09042A
+  }
+</style>
