@@ -1,0 +1,46 @@
+<div class=rectangulo></div>
+<div class="rectangulo der"></div>
+<div class=cuadrado></div>
+<div class=triangulo></div>
+<div class="triangulo tder"></div>
+<style>
+  body {
+    margin: 0;
+    background: #0B2429;
+  }
+  div {
+    width: 70px;
+    height: 140px;
+    background: #998235;
+    position: fixed;
+    left: 130;
+    top: 45;
+  }
+  .der{
+    left: 200;
+    background:#1A4341;
+  }
+  .cuadrado{
+    background:#F3AC3C;
+    width: 100;
+    height: 100;
+    transform: rotate(45deg);
+    left: 150;
+    top: 135;
+  }
+  .triangulo{
+    width:0;
+    height:0;
+    border-top: 70px solid #0B2429;
+    border-bottom: 70px solid transparent;
+    border-left: 70px solid #0B2429;
+    top:-25;
+  }
+  .tder{
+    background: #fff;
+    transform: rotate(180deg);
+    border-top: 70px solid #1A4341;
+    border-bottom: 70px solid #0B2429;
+    left: 200;
+  }
+</style>
