@@ -1,0 +1,64 @@
+<div class=cuadro>
+  <div class="carne naranja"></div>
+</div>
+<div class=cuadro>
+  <div class=carne></div>
+</div>
+<div class=cuadro>
+  <div class="carne naranja"></div>
+</div>
+<div class=cuadro>
+  <div class=carne></div>
+</div>
+
+<div class=cuadro>
+  <div class=carne></div>
+</div>
+<div class=cuadro>
+  <div class="carne naranja"></div>
+</div>
+<div class=cuadro>
+  <div class=carne></div>
+</div>
+<div class=cuadro>
+  <div class="carne naranja"></div>
+</div>
+
+<div class=cuadro>
+  <div class="carne naranja"></div>
+</div>
+<div class=cuadro>
+  <div class=carne></div>
+</div>
+<div class=cuadro>
+  <div class="carne naranja"></div>
+</div>
+<div class=cuadro>
+  <div class=carne></div>
+</div>
+< class=circulo></div>
+<style>
+  body {
+    margin:0;
+ 	display:grid;
+    grid-template-columns: repeat(4, 1fr)
+  }
+  .cuadro {
+    width: 100px;
+    height: 100px;
+    background: #5C434C;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .carne {
+    background:#F5D6B4;
+    width: 80;
+    height:80;
+    border-top-left-radius: 100%;
+  }
+  .naranja {
+    background:#F09462;
+  }
+</style>
