@@ -1,0 +1,63 @@
+<div>
+  <span class=bola></span>
+  <span class="bola dos"></span>
+  <span class="bola tres"></span>
+  <span class="bola cuatro"></span>
+  <span class="bola copa"></span>
+  <span class="bola copa abajo"></span>
+  <span class="bola copa izq"></span>
+  <span class="bola copa izqab"></span>
+</div>
+<style>
+  body{
+    background:#1A4341;
+  }
+  div {
+    width: 260px;
+    height: 120px;
+    position:fixed;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bola{
+    width:50;
+    height:50;
+    background:#998235;
+    position:absolute;
+    border-radius:50%;
+    top:0;
+    left:0;
+  }
+  .copa{
+    left:140;
+    border-radius:50% 50% 0 0;
+  }
+  .dos{
+    top:70;
+    left:70;
+  }
+  .tres{
+    background:#F3AC3C;
+    left:210;
+  }
+  .cuatro{
+    background:#F3AC3C;
+    left:140;
+    top:70
+  }
+  .abajo{
+    transform:translate(140%, 140%) rotate(180deg);
+  }
+  .izq{
+    transform:translate(-140%);
+    background:#F3AC3C;
+  }
+  .izqab{
+    transform:translate(-280%, 140%) rotate(180deg);
+    background:#F3AC3C
+  }
+</style>
