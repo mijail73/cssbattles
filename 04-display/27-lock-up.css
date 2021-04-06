@@ -1,0 +1,49 @@
+<div>
+  <span></span>
+  <span></span>
+  <span class=cuadro></span>
+  <span class="cuadro abajo"></span>
+</div>
+<style>
+  body{
+    background:#E38F66;
+  }
+  div {
+    width: 200px;
+    height: 200px;
+    background: #AA445F;
+    position:fixed;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  span:nth-of-type(1){
+    width:140;
+    height:140;
+    background:#F7EC7D;
+    position:absolute;
+    border-radius:50%
+  }
+  span:nth-of-type(2){
+    width:80;
+    height:80;
+    background:#AA445F;
+    position:absolute;
+    border-radius:50%;
+  }
+  .cuadro{
+    width:70;
+    height:70;
+    background:#AA445F;
+    position:absolute;
+    left:30;
+    top:30;
+  }
+  .abajo{
+    transform:translate(100%, 100%);
+  }
+</style>
